@@ -1,0 +1,29 @@
+This document logs changes made to 3D models. 
+As a general rule of thumb, a new revision marks a new function or major geometric change to the design.
+Sub-revisions (ex. REV1-2 vs REV1-3) are minor changes usually made for quality of life purposes or minor alterations like 3D printing tolerence adjustments.
+A revision or sub-revision marked with *** means that it has not been tested yet. 
+- B
+
+REV1: 
+	Description:
+		Initial test design to find correct screw hole locations.
+	Flaws:
+		No tube for vacuum.
+		Innacurate Screw/mounting holes. 
+		No screw holes for aluminum chip holder blocks.
+REV2:
+	Description: 
+		Second test design with fillet corners, vacuum tube, and chip cutout.
+	Flaws:
+		Sizings are likely to be incorrect still.
+		No screw holes for aluminum chip holder blocks.
+REV3:	
+	Description:
+		First prototype with vacuum tube mount, tube, and chip cutout.
+	Flaws:
+	  	Was waaaay off on the tube diameter. Also the placement was bad.
+REV4: 	Description:
+		Made a mounting hole so that a metal tube connecter could be screwed in instead. Also moved the location to the corner of the stage.
+	Flaws:
+		The mounting holes size could probably be fine tuned for a better seal with the metal connector. 
+		But if you arent looking to redesign and reprint, some sort of sealent would also do the job pretty well.

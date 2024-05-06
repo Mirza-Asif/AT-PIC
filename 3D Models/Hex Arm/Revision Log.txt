@@ -1,0 +1,44 @@
+This document logs changes made to 3D models. 
+As a general rule of thumb, a new revision marks a new function or major geometric change to the design.
+Sub-revisions (ex. REV1-2 vs REV1-3) are minor changes usually made for quality of life purposes or minor alterations like 3D printing tolerence adjustments.
+A revision or sub-revision marked with *** means that it has not been tested yet. 
+- B
+
+REV1: 
+	Description:
+		Initial design with fiber array holder affixed to arm.
+	Flaws:
+		Arm screw holes are of incorrect height and width.
+		Base screw holes are in wrong places.
+		Arm to base tolerences are too wide. (loose arm)
+REV2: 
+	Description:
+		Updated design with detatchable fiber array holder capable of being magnetically attatched.
+	Updates:
+		Fiber array holder is now detatchable.
+		A generally sleaker looking design. 
+	Fixes:
+		Arm screw holes are now perfect height and diameter. (Switched from m5 screw to 1/4 in)
+		Base screw holes are alligned. 
+		Arm tollerence issues are fixed.
+	Flaws:
+		Base screw holes are slightly too small.
+		Fiber array holder to extender arm connector is too tight.
+		1/4 in nut sockets are slightly too large.
+
+	
+REV2-1:
+	Fixes:
+		Base screw hole diameter adjusted.
+		Fiber array to extender connecter loosened.
+		1/4 in nut sockets tightened.
+		Added punch hole to fiber array holder for printer support removal.
+		Adjuster arm renamed to extender arm for consistency.
+	Flaws:	
+		60 degree offset from arm to hexapod x axis.
+REV3:
+	Fixes:
+		60 degree offset removed.
+	
+	
+	  
